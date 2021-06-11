@@ -1,0 +1,16 @@
+/* tsconfig.json */
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "esnext"],
+    "outDir": "lib",
+    "declaration": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": ["src"]
+}
+
+// 附上配置文档： https://www.tslang.cn/docs/handbook/compiler-options.html
